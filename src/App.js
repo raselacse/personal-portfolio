@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MenuBar from './components/MenuBar/MenuBar';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           </Route>
           <Route path='/home'>
             <Home />
+          </Route>
+          <Route path='/projects'>
+            <Projects />
           </Route>
           <Route path='*'>
             <NotFound />

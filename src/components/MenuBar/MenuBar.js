@@ -14,7 +14,7 @@ const MenuBar = () => {
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
                         <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
-                        <Nav.Link as={Link} to="/about">About Me</Nav.Link>
+                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
