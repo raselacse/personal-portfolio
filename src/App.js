@@ -6,6 +6,8 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact />
+          </Route>
+          <Route path='/about'>
+            <About />
+          </Route>
+          <Route path='/blog'>
+            <Blog />
           </Route>
           <Route path='*'>
             <NotFound />

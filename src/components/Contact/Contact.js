@@ -15,8 +15,8 @@ const Contact = () => {
         setValidated(true);
     };
     return (
-        <>
-            <h1 className="text-center">Get in touch</h1>
+        <div className="py-5">
+            <h1 className="text-center pb-3">Get in touch</h1>
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
                 <Form.Row className="justify-content-center">
                     <Form.Group as={Col} xs="10" sm="6" md="6" lg="4" controlId="validationCustom01">
@@ -40,7 +40,7 @@ const Contact = () => {
                     <Form.Group as={Col} xs="10" sm="6" md="6" lg="4" controlId="validationCustom02">
                         <Form.Control
                             required
-                            type="textarea"
+                            as="textarea"
                             placeholder="Your message"
                         />
                     </Form.Group>
@@ -51,7 +51,7 @@ const Contact = () => {
                     </Form.Group>
                 </Form.Row>
             </Form>
-        </>
+        </div>
     );
 };
 

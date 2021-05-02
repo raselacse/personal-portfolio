@@ -8,8 +8,8 @@ const Projects = () => {
     return (
         <div>
             <h1 className="text-center py-3">My Projects</h1>
-            <div className="row">
-                <div className="col-md-4">
+            <div className="row px-5">
+                <div className="col-lg-4 py-2">
                     <Card className="h-100">
                         <Card.Img variant="top" src={authentic} />
                         <Card.Body>
@@ -22,7 +22,7 @@ const Projects = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 py-2">
                     <Card className="h-100">
                         <Card.Img variant="top" src={weshopping} />
                         <Card.Body>
@@ -35,7 +35,7 @@ const Projects = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 py-2">
                     <Card className="h-100">
                         <Card.Img variant="top" src={pathao} />
                         <Card.Body>
