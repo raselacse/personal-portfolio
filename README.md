@@ -1,8 +1,5 @@
 # Personal Portfolio
 ## Used for web applications
-* html
-* css
 * reactjs
 * react-bootstrap
-
-#### You can check the live app: [My app]()
+#### You can check the live app: [My app](https://rasel-personal-portfolio.netlify.app)
